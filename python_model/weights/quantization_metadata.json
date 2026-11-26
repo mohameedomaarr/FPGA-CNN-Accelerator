@@ -1,0 +1,15 @@
+{
+    "input_format": "UINT8",
+    "weight_format": "INT8",
+    "bias_format": "INT32",
+    "accumulator_format": "INT32",
+    "activation_format": "UINT8",
+    "input_scale": 0.00392156862745098,
+    "conv_weight_scale": 0.01075494010001421,
+    "activation_scale": 0.010497093200683594,
+    "fc_weight_scale": 0.007479378487914801,
+    "calibration_samples": 10000,
+    "rounding": "numpy.rint (ties-to-even)",
+    "conv_accumulator_bound": 302956,
+    "fc_accumulator_bound": 43786027
+}

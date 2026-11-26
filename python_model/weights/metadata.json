@@ -1,0 +1,28 @@
+{
+    "input_shape": [
+        1,
+        28,
+        28
+    ],
+    "convolution_filters": 8,
+    "kernel_size": [
+        3,
+        3
+    ],
+    "convolution_output_shape": [
+        8,
+        26,
+        26
+    ],
+    "pooling_output_shape": [
+        8,
+        13,
+        13
+    ],
+    "flatten_size": 1352,
+    "output_classes": 10,
+    "conv_weight_layout": "out_channel,in_channel,kernel_row,kernel_col",
+    "fc_weight_layout": "output_neuron,input_feature",
+    "fc_flatten_order": "channel,row,column",
+    "parameter_format": "float32"
+}
