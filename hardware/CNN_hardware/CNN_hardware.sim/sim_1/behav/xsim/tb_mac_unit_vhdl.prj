@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../rtl/mac_unit.vhd" \
+"../../../../../testbench/tb_mac_unit.vhd" \
+
+# Do not sort compile order
+nosort
